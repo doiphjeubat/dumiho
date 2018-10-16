@@ -40,7 +40,6 @@ public abstract class BaseFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = onCreateFragmentView(inflater, container, savedInstanceState);
         ButterKnife.bind(this, view);
-
         return view;
     }
 
